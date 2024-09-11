@@ -1,0 +1,103 @@
+body{
+    background-color: rgb(44, 41, 41);
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.container{
+    background-color: #ffffff;
+    background-image: linear-gradient(315deg, #e7acac 0%, #dbe2f1 74%);
+    box-shadow: 5px 0px 5px rgb(17, 17, 92);
+
+    width: 500px;
+    height: 700px;
+    border: 6px solid rgb(11, 11, 47);
+    border-radius: 80px;
+
+}
+.heads{
+    padding: 30px 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 20px;
+}
+i{
+    font-size: 30px;
+    color: rgb(11, 11, 47);
+}
+/* .fa-circle-chevron-left{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+} */
+.profile{
+    background-color: rgb(199, 199, 199);
+    border: 6px solid rgb(11, 11, 47);
+    border-radius: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: 50px; */
+    width: 280px;
+    height: 240px;
+    padding: 30px;
+    background-image: url(media/184051.jpg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    box-shadow: 5px 0px 5px rgb(17, 17, 97);
+}
+/* .img{
+    position: relative;
+} */
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    margin-bottom: 0px ;
+    color: rgb(11, 11, 47);
+}
+h5{
+    margin: 10px auto 30px;
+    color: rgb(11, 11, 47);
+}
+#progress{
+    -webkit-appearance: none;
+    width: 80%;
+    height:  6px;
+    background: #b95471;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 15px 50px 30px;
+}
+#progress::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    background: #dbe2f1;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 8px solid rgb(11, 11, 47) ;
+    box-shadow: 5px 0px 5px rgb(17, 17, 92);
+}
+.controls{
+    display: flex;
+    justify-content: space-around;
+    font-size: 50px;
+    color: rgb(11, 11, 47);
+    
+}
+.controls div:nth-child(2){
+    transform: scale(2.8);
+    margin:  5px;
+}
+.controls div:nth-child(1){
+    transform: scale(1.4);
+    margin-left: 60px;
+    margin-top: 10px;
+}
+.controls div:nth-child(3){
+    transform: scale(1.4);
+    margin-right: 60px;
+    margin-top: 10px;
+}
