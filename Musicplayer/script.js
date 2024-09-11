@@ -43,4 +43,23 @@ document.addEventListener('DOMContentLoaded', function() {
     } else {
         console.error('One or more required elements are missing.');
     }
+
+//     //music index
+//     songName= document.querySelector('.songName');
+//     const index={
+//         title: ['CHLORINE', 'Fly me to the moon', 'Queen', 'Tai Mori Lai', 'Yeh Tune Kya Kiya'],
+//         artist: ['a','b','c','d', 'e'],
+//     }
+
+//     //for next cauresol or song
+//     next= document.querySelector('.next');
+//     back= document.querySelector('.back');
+//     next.addEventListener('click',function(){
+        
+//     })
+//     // back.addEventListener('click', backSong(){
+
+//     // });
+
+    
 });
