@@ -43,6 +43,7 @@ document.addEventListener('DOMContentLoaded', function() {
     } else {
         console.error('One or more required elements are missing.');
     }
+    
 
 //     //music index
 //     songName= document.querySelector('.songName');
